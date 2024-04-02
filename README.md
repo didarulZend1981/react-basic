@@ -1,0 +1,1 @@
+Terminal :npm create vite@latest react-basic -- --template react
