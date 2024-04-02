@@ -7,3 +7,4 @@ Terminal :npm run dev
 terminal :npm install -D tailwindcss postcss autoprefixer
 
 terminal :npx tailwindcss init -p
+terminal :npm i -D daisyui@latest
