@@ -1,9 +1,10 @@
+import { Outlet } from "react-router-dom";
 
 
 const Route = () => {
   return (
     <div>
-        <h1 className="text-3xl text-center bg-slate-500">Hello world!</h1>
+        <Outlet></Outlet>
     </div>
   );
 };
