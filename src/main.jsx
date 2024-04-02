@@ -8,16 +8,26 @@ import {
 } from "react-router-dom";
 import Route from './components/Route/Route.jsx';
 import Home from './components/Home/Home.jsx';
+import Registration from './components/Registration/Registration.jsx';
+import Login from './components/Login/Login.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Route></Route>,
     children:[
-      {
-        path:"/",
-        element:<Home></Home>
-      }
+              {
+                path:"/",
+                element:<Home></Home>
+              },
+              {
+                path:"/registration",
+                element:<Registration></Registration>
+              },
+              {
+                path:"/login",
+                element:<Login></Login>
+              }
 
     ]
   },
