@@ -5,3 +5,5 @@ Terminal :npm install react-router-dom localforage match-sorter sort-by
 Terminal :npm run dev
 
 terminal :npm install -D tailwindcss postcss autoprefixer
+
+terminal :npx tailwindcss init -p
