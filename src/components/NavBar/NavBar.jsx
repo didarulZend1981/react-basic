@@ -6,7 +6,7 @@ const NavBar = () => {
     const Navlink =<>
          <li><NavLink to="/">Home</NavLink></li>
          <li><NavLink to="/login">Login</NavLink></li>
-         <li><NavLink to="/register">registration</NavLink></li>
+         <li><NavLink to="/registration">registration</NavLink></li>
   
   
     </>
@@ -27,16 +27,7 @@ const NavBar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-          {Navlink}
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
+    {Navlink}
     </ul>
   </div>
   <div className="navbar-end">
